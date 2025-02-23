@@ -87,7 +87,7 @@ nav {
 .about-us {
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 15px 10px;
     background: url("https://img.freepik.com/premium-vector/premium-background-gradient-black-white-tones_391563-1314.jpg") center/cover;
 }
 
@@ -108,3 +108,58 @@ nav {
     font-size: 24px;
 
 }
+
+.our-services {
+    text-align: center;
+    background-color: aliceblue;
+    padding: 30px;
+    font-size: 24px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 50px 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.service-card {
+    background-color: rgb(240, 229, 185);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgb(46, 44, 44);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    color: #311c31;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+
+.service-card p {
+    color: #311c31;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+
+
+
