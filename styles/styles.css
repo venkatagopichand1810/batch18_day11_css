@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* navigation bar */
+
+header {
+    background-color: #0a0101;
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0px
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0px 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.hero {
+    background: url("../images/hero.png") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+}
+
+.hero h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 10px black;
+}
+.dream-travel {
+    color: orange;
+    font-size: 66px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 40px;
+    outline: 3px solid orange;
+    border-radius: 25px;
+    margin-left: 36px;
+    font-size: 22px;
+}
+
+.nav-links a.login {
+    text-decoration: underline;
+    color: orange;
+}
