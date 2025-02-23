@@ -54,7 +54,8 @@ nav {
     align-items: center;
     justify-content: center;
     color: white;
-    height: 100vh;
+    height: 60vh;
+    background-position: top;
 }
 
 .hero h1 {
@@ -81,4 +82,29 @@ nav {
 .nav-links a.login {
     text-decoration: underline;
     color: orange;
+}
+
+.about-us {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background: url("https://img.freepik.com/premium-vector/premium-background-gradient-black-white-tones_391563-1314.jpg") center/cover;
+}
+
+.about-us h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 1.5em;
+}
+
+.who-we-are {
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 900px;
+    font-size: 24px;
+
 }
